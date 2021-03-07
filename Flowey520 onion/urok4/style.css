@@ -1,0 +1,102 @@
+body
+{
+	background:url(stalker_2_first_screen-scaled.jpg);
+	margin:0;
+	padding:0;
+	width: 100%;
+    height: 100%;
+}
+
+h1{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 200px;
+	left: 700px;
+    font-family: "Consolas", sans-sirif;
+    letter-spacing: 5px;
+    color: red;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+h1:before
+{
+	content: attr(text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #00FF00;
+	border-right: 2px #00FF00;	
+	animation: testname 12s steps(200) infinite;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@keyframes testname
+{
+	0%{
+		width: 0;
+	}
+	50%
+	{
+		width: 100%;
+	}
+	100%
+	{
+		width: 0;
+	}
+}
+/*мой комент =)*/
+
+.cod {
+     position: absolute;
+     top:500px;
+     left:700px;
+}
+/*да-да...*/
+.cod span {
+     color: #fff;
+     font-family: 'Consolas';
+     font-size: 35px;
+     display: inline-block;
+
+     color: #fff;
+     width: 50px;
+     text-align: center;
+     line-height: 50px;
+     border: 1px solid rgba(255,255,2551, .4);
+     margin: 0 -2.5px;
+
+     animation-name: onion;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-timing-function: liner;
+}
+
+@keyframes onion {
+0%{
+	color: #f00;
+	box-shadow: 0 2px 10px rgba(255,0,0,1);
+	border: 1px solid rgba(255,0,0,1);
+}	
+
+30%{
+	color: #ff0;
+	box-shadow: 0 2px 10px rgba(255,255,0,1);
+	border: 1px solid rgba(255,0,0,1);
+}
+60%{
+	color: #0f0;
+	box-shadow: 0 2px 10px rgba(255,255,0,1);
+	border: 1px solid rgba(255,0,0,1);
+}
+100%{
+	color: #f00;
+	box-shadow: 0 2px 10px rgba(255,255,0,1);
+	border: 1px solid rgba(255,0,0,1);
+}
+}
+/*жизнь - боль*/
