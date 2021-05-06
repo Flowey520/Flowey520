@@ -8,7 +8,7 @@ body{
 	top:50%;
 	height: 50%;
 	width: 100%;
-	background-color: #D6B99F;
+	background:linear-gradient(#D6B99F 50%, #CA9F7D 50%);
 }
 
 .screen{
@@ -36,4 +36,130 @@ body{
 	top:20px;
 	left:20px;
 	background-color: white;
+}
+
+.rotate{
+	position: relative;
+	width: 320px;
+	height: 240px;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease; 
+}
+
+input{
+	position: absolute;
+	left: 40px;
+	top: 60px;
+	width: 240px;
+	height: 50px;
+	border:none;
+	font-size: 22px;
+}
+
+.back{
+	position: absolute;
+	width: 320px;
+	height: 240px;
+	background-color: #C7EC9C;
+	transform: rotateY(-180deg);
+}
+
+.front{
+	position: absolute;
+	width: 320px;
+	height: 240px;
+	background-color: #63B8F2;
+}
+
+.button1{
+	position:absolute;
+	left:110px;
+	top:140px;
+	font-size: 22px;
+	color:#6B6B6B;
+	background-color: white;
+	height: 50px;
+	width: 100px;
+}
+
+.tittle{
+
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left:75px;
+	top: 30px;
+}
+
+.button2{
+	position: absolute;
+	left:80px;
+	top:140px;
+	font-size: 22px;
+	color:#6B6B6B;
+	background-color: white;
+	width: 160px;
+	height: 50px;
+}
+
+.mouse{
+	position: absolute;
+	left: 1240px;
+	top: 100px;
+	background-color: #ad959a;
+	width: 65px;
+	height: 100px;
+	border-radius: 20%;
+}
+
+.wall{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	background: linear-gradient(to right,
+		#63A69F 20%,
+		#F2E1AC 20%, #F2E1AC 40%,
+		#F3836B 40%, #F3836B 60%,
+		#F9B477 60%, #F9B477 80%,
+		#63A69F 80%);
+}
+
+.imgboard{
+	position: absolute;
+	height: 240px; 
+	width: 320px;
+	top: 20px;
+	left: 20px;
+}
+
+.box{
+	position: absolute;
+	height: 140px;
+	width:100px;
+	left: 1100px;
+	top: 30px;
+	border-radius: 0px 30px 10px 10px;
+	background-color: #9219F5;
+	transform: rotate(-45deg) skewX(20deg)
+}
+
+.leftbox{
+
+	position: absolute;
+	height: 66px;
+	width: 22px;
+	left: 1204px;
+	top: 108px;
+	background-color: #611E9F;
+	transform: rotate(90deg) skewX(45deg);
+}
+
+.rightbox{
+	position: absolute;
+	height: 20px;
+	width: 149px;
+	left:1040px;
+	top: 135px;
+	background-color: #AD72E3;
+	transform: rotate(204deg) skewX(25deg);
 }
