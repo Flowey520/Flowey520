@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hello there, I'm Flowey! The director of the Zone Studio.
+### And creator of "Zone 86 Failure Of The Operation" Project
 
 <!--
 **Flowey520/Flowey520** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
